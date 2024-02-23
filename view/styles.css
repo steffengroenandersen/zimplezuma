@@ -1,0 +1,69 @@
+.dashboard {
+  margin-bottom: 20px;
+}
+
+.board {
+  margin-bottom: 100px;
+  overflow-x: hidden; /* Hide horizontal overflow */
+  white-space: nowrap; /* Prevent boxes from wrapping to the next line */
+}
+
+#start {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 10px; /* Adjust the radius as needed */
+  margin-right: 10px; /* Adjust spacing between boxes */
+  display: inline-block;
+}
+
+#end {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 10px; /* Adjust the radius as needed */
+  margin-right: 10px; /* Adjust spacing between boxes */
+  display: inline-block;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+  border-radius: 10px; /* Adjust the radius as needed */
+  margin-right: 10px; /* Adjust spacing between boxes */
+  display: inline-block;
+}
+
+.box[data-color="Red"] {
+  background-color: red;
+}
+
+.box[data-color="Green"] {
+  background-color: green;
+}
+
+.box[data-color="Blue"] {
+  background-color: blue;
+}
+
+.frog-box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: absolute;
+  bottom: 0; /* Position the frog box at the bottom of the screen */
+  left: 50%;
+  transform: translateX(-50%); /* Center the frog box horizontally */
+}
+
+.follower-box {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
